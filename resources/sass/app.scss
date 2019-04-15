@@ -1,0 +1,31 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Element UI
+@import '~element-ui/lib/theme-chalk/index.css';
+
+html, body, #app {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+#app.component {
+    overflow-y: hidden;
+}
+#app.is-component .headerWrapper {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1500;
+}
+#app .main {
+    //height: call(100vh - 60vh);
+    overflow-y: auto;
+}
+.heading {
+    color: #ffd04b;
+    font-size: 44px;
+    text-align: center
+}
